@@ -1,6 +1,6 @@
 # Broker Rules
 
-Broker routing rules for popular cross-border brokerage and wealth platforms used by Chinese-speaking communities. The goal is to route these services through one fixed-exit policy such as `Broker`, making it easier to keep a stable outbound IP across Surge, Shadowrocket, Quantumult X, Clash, Stash, and Loon.
+Broker routing rules for popular cross-border brokerage and wealth platforms used by Chinese-speaking communities. The goal is to route these services through one fixed-exit policy such as `Broker`[...]
 
 Current coverage:
 
@@ -29,7 +29,7 @@ Rule counts:
 
 ## Usage
 
-This repository is published at `Allen2023/broker-rules`.
+This repository is published at `Arthur-vx/broker-rules`.
 
 ### Surge
 
@@ -38,28 +38,28 @@ This repository is published at `Allen2023/broker-rules`.
 Broker = select, HK-Fixed-IP, US-Fixed-IP
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/Allen2023/broker-rules/main/rule/Surge/Broker/Broker.list,Broker
+RULE-SET,https://raw.githubusercontent.com/Arthur-vx/broker-rules/main/rule/Surge/Broker/Broker.list,Broker
 ```
 
 ### Shadowrocket
 
 ```ini
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/Allen2023/broker-rules/main/rule/Shadowrocket/Broker/Broker.list,Broker
+RULE-SET,https://raw.githubusercontent.com/Arthur-vx/broker-rules/main/rule/Shadowrocket/Broker/Broker.list,Broker
 ```
 
 ### Loon
 
 ```ini
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/Allen2023/broker-rules/main/rule/Loon/Broker/Broker.list,Broker
+RULE-SET,https://raw.githubusercontent.com/Arthur-vx/broker-rules/main/rule/Loon/Broker/Broker.list,Broker
 ```
 
 ### Quantumult X
 
 ```ini
 [filter_remote]
-https://raw.githubusercontent.com/Allen2023/broker-rules/main/rule/QuantumultX/Broker/Broker.list, tag=Broker, force-policy=Broker, enabled=true
+https://raw.githubusercontent.com/Arthur-vx/broker-rules/main/rule/QuantumultX/Broker/Broker.list, tag=Broker, force-policy=Broker, enabled=true
 ```
 
 Notes:
@@ -74,7 +74,7 @@ rule-providers:
   broker:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Allen2023/broker-rules/main/rule/Clash/Broker/Broker.yaml
+    url: https://raw.githubusercontent.com/Arthur-vx/broker-rules/main/rule/Clash/Broker/Broker.yaml
     path: ./ruleset/broker.yaml
     interval: 86400
 
@@ -89,7 +89,7 @@ rule-providers:
   broker:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Allen2023/broker-rules/main/rule/Stash/Broker/Broker.yaml
+    url: https://raw.githubusercontent.com/Arthur-vx/broker-rules/main/rule/Stash/Broker/Broker.yaml
     path: ./ruleset/broker.yaml
     interval: 86400
 
@@ -109,11 +109,11 @@ This ruleset fully incorporates the relevant brokerage entries from the followin
   - full `TigerFintech.list`
   - community update proposal in issue `#1687` for Futu, Moomoo, Longbridge, and Tiger Brokers
 
-On top of those upstream datasets, this repository adds official domains used by quote delivery, Level 2 data, OpenAPI, login flows, and support centers, plus observable entry IPs captured on `2026-05-30` and community-reported CIDR ranges normalized to network-address notation.
+On top of those upstream datasets, this repository adds official domains used by quote delivery, Level 2 data, OpenAPI, login flows, and support centers, plus observable entry IPs captured on `20[...]
 
 ## Acknowledgements
 
-Many thanks to the maintainers of the upstream rule projects, especially `koo17173/rule-set` and `blackmatrix7/ios_rule_script`. Their existing work provided the baseline coverage that made this focused broker ruleset possible. This repository builds on that foundation, verifies the broker-specific portions, and extends them for fixed-exit routing scenarios.
+Many thanks to the maintainers of the upstream rule projects, especially `koo17173/rule-set` and `blackmatrix7/ios_rule_script`. Their existing work provided the baseline coverage that made this [...]
 
 ## Maintenance Notes
 
