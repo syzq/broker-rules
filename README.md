@@ -11,10 +11,10 @@ Current coverage:
 
 Rule counts:
 
-- `DOMAIN-SUFFIX`: 68
+- `DOMAIN-SUFFIX`: 70
 - `DOMAIN`: 18
 - `IP-CIDR`: 63
-- `TOTAL`: 149
+- `TOTAL`: 151
 
 ## Structure
 
