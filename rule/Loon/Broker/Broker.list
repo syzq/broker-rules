@@ -1,11 +1,11 @@
 # NAME: Broker
-# AUTHOR: MsMc
-# REPO: https://github.com/Allen2023/broker-rules
-# UPDATED: 2026-06-19
-# DOMAIN-SUFFIX: 70
+# AUTHOR: syzq
+# REPO: https://github.com/syzq/broker-rules
+# UPDATED: 2026-06-24
+# DOMAIN-SUFFIX: 71
 # DOMAIN: 18
 # IP-CIDR: 63
-# TOTAL: 151
+# TOTAL: 152
 DOMAIN-SUFFIX,futuhk.com
 DOMAIN-SUFFIX,futu.link
 DOMAIN-SUFFIX,futunn.com
@@ -76,6 +76,7 @@ DOMAIN-SUFFIX,longbridge.sg
 DOMAIN-SUFFIX,tigerbrokers.com
 DOMAIN-SUFFIX,tigerbrokers.net
 DOMAIN-SUFFIX,tigerbrokers.nz
+DOMAIN-SUFFIX,skytigris.cn
 DOMAIN,cdn.futustatic.com
 DOMAIN,quote.longbridge.global
 DOMAIN,trade.longportapp.com
