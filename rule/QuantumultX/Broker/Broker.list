@@ -2,10 +2,10 @@
 # AUTHOR: syzq
 # REPO: https://github.com/syzq/broker-rules
 # UPDATED: 2026-06-24
-# HOST-SUFFIX: 71
+# HOST-SUFFIX: 73
 # HOST: 18
 # IP-CIDR: 63
-# TOTAL: 152
+# TOTAL: 154
 HOST-SUFFIX,futuhk.com,Broker
 HOST-SUFFIX,futu.link,Broker
 HOST-SUFFIX,futunn.com,Broker
@@ -77,6 +77,8 @@ HOST-SUFFIX,tigerbrokers.com,Broker
 HOST-SUFFIX,tigerbrokers.net,Broker
 HOST-SUFFIX,tigerbrokers.nz,Broker
 HOST-SUFFIX,skytigris.cn,Broker
+HOST-SUFFIX,firstrade.com,Broker
+HOST-SUFFIX,firstrade.net,Broker
 HOST,cdn.futustatic.com,Broker
 HOST,quote.longbridge.global,Broker
 HOST,trade.longportapp.com,Broker

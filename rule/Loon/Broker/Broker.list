@@ -2,10 +2,10 @@
 # AUTHOR: syzq
 # REPO: https://github.com/syzq/broker-rules
 # UPDATED: 2026-06-24
-# DOMAIN-SUFFIX: 71
+# DOMAIN-SUFFIX: 73
 # DOMAIN: 18
 # IP-CIDR: 63
-# TOTAL: 152
+# TOTAL: 154
 DOMAIN-SUFFIX,futuhk.com
 DOMAIN-SUFFIX,futu.link
 DOMAIN-SUFFIX,futunn.com
@@ -77,6 +77,8 @@ DOMAIN-SUFFIX,tigerbrokers.com
 DOMAIN-SUFFIX,tigerbrokers.net
 DOMAIN-SUFFIX,tigerbrokers.nz
 DOMAIN-SUFFIX,skytigris.cn
+DOMAIN-SUFFIX,firstrade.com
+DOMAIN-SUFFIX,firstrade.net
 DOMAIN,cdn.futustatic.com
 DOMAIN,quote.longbridge.global
 DOMAIN,trade.longportapp.com

@@ -8,13 +8,14 @@ Current coverage:
 - Longbridge [長橋證券]
 - Tiger Brokers [老虎證券]
 - Charles Schwab [嘉信理財]
+- Firstrade [第一证券]
 
 Rule counts:
 
-- `DOMAIN-SUFFIX`: 71
+- `DOMAIN-SUFFIX`: 73
 - `DOMAIN`: 18
 - `IP-CIDR`: 63
-- `TOTAL`: 152
+- `TOTAL`: 154
 
 ## Structure
 
